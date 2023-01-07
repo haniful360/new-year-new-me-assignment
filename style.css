@@ -5,13 +5,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-section{
-    margin-bottom: 100px;
-}
+
 .container{
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 120px auto;
 }
+
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -93,4 +92,21 @@ body{
     margin-right: 10px;
    
     color: #16D887;
+}
+
+
+/* ==========plans section========= */
+.plan_title{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+   text-align: center;
 }
