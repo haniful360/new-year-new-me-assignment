@@ -5,10 +5,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .container{
+section{
+    margin-bottom: 100px;
+}
+.container{
     max-width: 1280px;
     margin: 0 auto;
-} */
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -51,6 +55,42 @@ body{
     font-size: 20px;
     color: #fff;
     text-transform: capitalize;
+}
 
 
+/*=========== failures section =========*/
+.failures_container{
+    width: 1072px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_part img{
+    width: 451px;
+}
+
+.right_content{
+    /* width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.failure_title{
+    width: 288px;
+}
+.failure_des{
+    width: 416px;
+}
+.items_icons{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 8px;
+}
+.fa-check{
+    margin-right: 10px;
+   
+    color: #16D887;
 }
