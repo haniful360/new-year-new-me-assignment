@@ -73,16 +73,22 @@ body {
 
 .failure_title {
     width: 288px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 .failure_des {
     width: 416px;
+    margin-bottom: 16px;
+    font-size: 16px;
 }
 
 .items_icons {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+    font-size: 16px;
 }
 
 .fa-check {
