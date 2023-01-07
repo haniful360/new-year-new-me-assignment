@@ -1,30 +1,32 @@
 /*======== google fonts======= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1280px;
-    margin: 120px auto;
+    margin: 100px auto;
 }
 
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 /*=========== banner part ===========*/
-.banner_container{
+.banner_container {
     background-image: url('./img/banner/banner2.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.article_part{
-    width:90%;
+.article_part {
+    width: 90%;
     text-align: right;
     display: flex;
     height: 100vh;
@@ -32,19 +34,22 @@ body{
     align-items: flex-end;
     /* padding-right: 150px; */
     flex-direction: column;
-    
+
 }
-.banner_titile{
+
+.banner_titile {
     font-size: 65px;
     width: 525px;
 }
-.banner_descrip{
+
+.banner_descrip {
     width: 494px;
     font-size: 16px;
     margin-bottom: 32px;
     line-height: 26px;
 }
-.contact_btn{
+
+.contact_btn {
     display: inline-block;
     width: 160px;
     height: 64px;
@@ -58,55 +63,98 @@ body{
 
 
 /*=========== failures section =========*/
-.failures_container{
+.failures_container {
     width: 1072px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.img_part img{
+.img_part img {
     width: 451px;
 }
 
-.right_content{
+.right_content {
     /* width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
 }
-.failure_title{
+
+.failure_title {
     width: 288px;
 }
-.failure_des{
+
+.failure_des {
     width: 416px;
 }
-.items_icons{
+
+.items_icons {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     margin-bottom: 8px;
 }
-.fa-check{
+
+.fa-check {
     margin-right: 10px;
-   
+
     color: #16D887;
 }
 
 
 /* ==========plans section========= */
-.plan_title{
+.plan_title {
     text-align: center;
     margin-bottom: 80px;
     font-size: 40px;
     font-weight: 700;
 }
-.plan_container{
+
+.plan_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.column{
-   text-align: center;
+
+.column {
+    text-align: center;
+}
+
+/* ========mindset section======== */
+.mindset {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('./img/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    /* background: ; */
+    background-blend-mode: overlay;
+    padding-left: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.mindset_title{
+    color: #fff;
+    width: 559px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.call_now_btn{
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #F15B22;
+    text-transform: capitalize;
 }
