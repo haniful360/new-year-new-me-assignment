@@ -50,7 +50,7 @@ body {
 }
 
 .contact_btn {
-    display: inline-block;
+    /* display: inline-block; */
     width: 160px;
     height: 64px;
     background-color: #F15B22;
@@ -72,14 +72,6 @@ body {
 
 .img_part img {
     width: 451px;
-}
-
-.right_content {
-    /* width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .failure_title {
@@ -140,7 +132,8 @@ body {
 
 
 }
-.mindset_title{
+
+.mindset_title {
     color: #fff;
     width: 559px;
     font-size: 40px;
@@ -148,7 +141,64 @@ body {
     line-height: 47px;
     margin-bottom: 24px;
 }
-.call_now_btn{
+
+/* ========foooter section =========*/
+.footer_container {
+    color: #fff;
+    background-color: #151414;
+    padding: 100px 0;
+}
+
+.footer_part {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.future {
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.future_des {
+    font-size: 16px;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.email {
+    margin-bottom: 16px;
+}
+
+.social_icons {
+    margin-top: 32px;
+}
+
+.social_icons a {
+    margin-right: 17px;
+}
+
+/* ========subscribe======= */
+.subscribe {
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.subscribe_part input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    background-color: #151414;
+    color: #fff;
+}
+
+.common_btn {
     width: 160px;
     height: 64px;
     background-color: #FFFFFF;
