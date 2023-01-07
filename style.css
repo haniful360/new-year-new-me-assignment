@@ -150,7 +150,9 @@ body {
 }
 .contact_title{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding: 10px;
 }
 .contact_container{
     display: flex;
