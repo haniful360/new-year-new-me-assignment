@@ -13,7 +13,6 @@
     margin: 100px auto;
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -33,9 +32,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: flex-end;
-    /* padding-right: 150px; */
     flex-direction: column;
-
 }
 
 .banner_titile {
@@ -51,7 +48,6 @@ body {
 }
 
 .contact_btn {
-    /* display: inline-block; */
     width: 160px;
     height: 64px;
     background-color: #F15B22;
@@ -85,7 +81,6 @@ body {
 
 .items_icons {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 8px;
 }
@@ -123,15 +118,11 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 8px;
-    /* background: ; */
     background-blend-mode: overlay;
     padding-left: 50px;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
-
-
 }
 
 .mindset_title {
@@ -160,9 +151,7 @@ body {
     justify-content: space-evenly;
     padding: 15px;
 }
-.contact_options{
-    /* display: flex; */
-}
+
 .contact_option{
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
@@ -186,8 +175,6 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
 form input[type="text"]{
     width: 300px;
@@ -216,7 +203,6 @@ textarea{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
 }
 
 .future {
